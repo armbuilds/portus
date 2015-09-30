@@ -9,7 +9,7 @@ web:
   command: thin start
 
 db:
-  image: mariadb
+  image: armbuilds/mariadb
   environment:
     MYSQL_ROOT_PASSWORD: portus
 
