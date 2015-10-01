@@ -1,4 +1,4 @@
-FROM armbuilds/rails:4.2.4
+FROM armbuilds/rails
 MAINTAINER Flavio Castelli <fcastelli@suse.com>
 
 RUN apt-get update
